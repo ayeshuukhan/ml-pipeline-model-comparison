@@ -1,12 +1,12 @@
 # Rainfall Prediction using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 This project predicts the likelihood of rainfall in Australia based on historical weather data.  
 We use the **Australian Government's Bureau of Meteorology** dataset (sourced via Kaggle) containing daily weather observations from **2008 to 2017**.  
 The model predicts whether it will rain **“Tomorrow”** given today’s weather conditions.
 
 
-## 📂 Dataset Information
+## Dataset Information
 - **Source**: [BOM Climate Data](http://www.bom.gov.au/climate/dwo/) and [Kaggle Weather Dataset](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/)  
 - **Time period**: 2008 – 2017  
 - **Target Variable**: `RainTomorrow` (Yes/No)
@@ -29,7 +29,7 @@ The model predicts whether it will rain **“Tomorrow”** given today’s weath
 | RainToday | Rain occurrence today (Yes/No) | Binary |
 | RainTomorrow | Rain occurrence tomorrow (Yes/No) | Binary |
 
-## ⚙️ Project Steps
+## Project Steps
 1. **Data Preprocessing**
    - Cleaned missing values
    - Mapped categorical values (e.g., wind directions, Yes/No)
@@ -61,19 +61,19 @@ The model predicts whether it will rain **“Tomorrow”** given today’s weath
    - Feature Importances (for RandomForest)
 
 
-## 📊 Results
+## Results
 - **Random Forest** achieved higher accuracy with feature importance insights.  
 - **Logistic Regression** provided explainability with comparable performance.  
 - Both models were compared to ensure robustness.
 
 
-## 🚀 Next Steps
+## Next Steps
 - Handle missing data more effectively (e.g., imputation techniques)  
 - Try more advanced models (e.g., Gradient Boosting, XGBoost)  
 - Explore regional weather prediction (train models for specific cities)  
 - Deploy as a web app (e.g., Flask, FastAPI, or Streamlit)
   
 
-## 💻 Tech Stack
+## Tech Stack
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn)  
 - Jupyter Notebook  
